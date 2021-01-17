@@ -819,6 +819,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2215237824804312215, guid: eea4316bf0b0644ca9b221e1705c3768, type: 3}
+      propertyPath: exitAnimationMoveSide
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3137786910992962791, guid: eea4316bf0b0644ca9b221e1705c3768, type: 3}
       propertyPath: m_Sprite
       value: 

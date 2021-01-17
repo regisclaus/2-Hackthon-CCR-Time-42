@@ -111,5 +111,9 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.94509804
       objectReference: {fileID: 0}
+    - target: {fileID: 6015346710168119351, guid: 6af0db0b952e14a4e9b7e57e8820ea49, type: 3}
+      propertyPath: m_text
+      value: "CABE\xC7A"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6af0db0b952e14a4e9b7e57e8820ea49, type: 3}
