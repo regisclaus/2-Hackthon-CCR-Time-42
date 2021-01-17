@@ -26,34 +26,49 @@ public class ScreenScript : MonoBehaviour
     }
 
     public void GoToPreviousScreen(ScreenScript previousScreen) {
-        previousScreen.EnterAnimation();
+        previousScreen.gameObject.SetActive(true);
+        previousScreen.EnterAnimation(this.gameObject);
+  
     }
     
-    private void ExitAnimation() {
+    public void ExitAnimation() {
         switch(exitAnimationMoveSide) {
             case ExitAnimationMoveSide.LEFT:
-                doTweenAnimation.DOPlayById("LeftExit");
+                doTweenAnimation.DORestartById("LeftExit");
                 break;
             case ExitAnimationMoveSide.DOWN:
-                doTweenAnimation.DOPlayById("DownExit");
+                doTweenAnimation.DORestartById("DownExit");
                 break;
             case ExitAnimationMoveSide.NONE:
                 break;
         }
     }
 
-    private void EnterAnimation() {
+    public void EnterAnimation(GameObject screenCaller) {
+        StartCoroutine(EnterAnimationCorrotine(screenCaller));
+    }
+
+    private IEnumerator EnterAnimationCorrotine(GameObject screenCaller) {
         switch(exitAnimationMoveSide) {
             case ExitAnimationMoveSide.LEFT:
-                doTweenAnimation.DOPlayById("LeftExit");
+                doTweenAnimation.DOPlayBackwardsById("LeftExit");
                 break;
             case ExitAnimationMoveSide.DOWN:
-                doTweenAnimation.DOPlayById("DownExit");
+                doTweenAnimation.DOPlayBackwardsById("DownExit");
                 break;
             case ExitAnimationMoveSide.NONE:
                 break;
         }
+
+        while(doTweenAnimation.tween.IsPlaying()) {
+            yield return null;
+        }
+
+
+        screenCaller.SetActive(false);
     }
+
+
 
 }
 
