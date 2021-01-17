@@ -2,13 +2,13 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/[Ll]ogs/
-/[Mm]emoryCaptures/
+/Hackthon-CCR-Time-42/elleven-simulador-de-escritorio-webgl/[Ll]ibrary/
+/Hackthon-CCR-Time-42/[Tt]emp/
+/Hackthon-CCR-Time-42/[Oo]bj/
+/Hackthon-CCR-Time-42/[Bb]uild/
+/Hackthon-CCR-Time-42/[Bb]uilds/
+/Hackthon-CCR-Time-42/[Ll]ogs/
+/Hackthon-CCR-Time-42/[Mm]emoryCaptures/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
