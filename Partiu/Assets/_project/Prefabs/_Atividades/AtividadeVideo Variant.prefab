@@ -34,7 +34,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.3811, y: 244}
+  m_AnchoredPosition: {x: -1.3811, y: 240.1}
   m_SizeDelta: {x: 361.91302, y: 40.932846}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5778783818653938571
@@ -65,7 +65,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: TITULO
+  m_text: GROWTH MINDSET
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d735ca849a1f743fb8f5077b0c70364f, type: 2}
   m_sharedMaterial: {fileID: 6776665197573463255, guid: d735ca849a1f743fb8f5077b0c70364f, type: 2}
@@ -98,7 +98,7 @@ MonoBehaviour:
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -134,6 +134,19 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &5275500402220918158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7688251591132229847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b78fc0d40b7c458ab574eafd33cc88a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  videoPlayer: {fileID: 383924255993438016}
 --- !u!1 &1540316695120409206
 GameObject:
   m_ObjectHideFlags: 0
@@ -611,19 +624,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &5275500402220918158
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7688251591132229847}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b78fc0d40b7c458ab574eafd33cc88a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  videoPlayer: {fileID: 383924255993438016}
 --- !u!1 &8486275807612547872
 GameObject:
   m_ObjectHideFlags: 0

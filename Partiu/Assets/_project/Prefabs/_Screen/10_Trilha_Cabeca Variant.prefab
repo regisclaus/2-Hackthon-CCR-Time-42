@@ -7,6 +7,34 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 130838399771032517, guid: 6af0db0b952e14a4e9b7e57e8820ea49, type: 3}
+      propertyPath: m_Color.b
+      value: 0.36862746
+      objectReference: {fileID: 0}
+    - target: {fileID: 130838399771032517, guid: 6af0db0b952e14a4e9b7e57e8820ea49, type: 3}
+      propertyPath: m_Color.g
+      value: 0.75686276
+      objectReference: {fileID: 0}
+    - target: {fileID: 130838399771032517, guid: 6af0db0b952e14a4e9b7e57e8820ea49, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 383148948949632219, guid: 6af0db0b952e14a4e9b7e57e8820ea49, type: 3}
+      propertyPath: m_text
+      value: Enfrentando Desafios
+      objectReference: {fileID: 0}
+    - target: {fileID: 401730387686110104, guid: 6af0db0b952e14a4e9b7e57e8820ea49, type: 3}
+      propertyPath: m_text
+      value: "Identifica\xE7\xE3o de Desafios"
+      objectReference: {fileID: 0}
+    - target: {fileID: 401730387686110104, guid: 6af0db0b952e14a4e9b7e57e8820ea49, type: 3}
+      propertyPath: m_fontSize
+      value: 16.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 401730387686110104, guid: 6af0db0b952e14a4e9b7e57e8820ea49, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 16.6
+      objectReference: {fileID: 0}
     - target: {fileID: 848757744897365184, guid: 6af0db0b952e14a4e9b7e57e8820ea49, type: 3}
       propertyPath: m_Name
       value: 10_Trilha_Cabeca Variant
@@ -95,6 +123,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2608884226193413675, guid: 6af0db0b952e14a4e9b7e57e8820ea49, type: 3}
+      propertyPath: m_text
+      value: Autodesafio
+      objectReference: {fileID: 0}
     - target: {fileID: 4940588183732447691, guid: 6af0db0b952e14a4e9b7e57e8820ea49, type: 3}
       propertyPath: m_Color.a
       value: 1
@@ -114,6 +146,10 @@ PrefabInstance:
     - target: {fileID: 6015346710168119351, guid: 6af0db0b952e14a4e9b7e57e8820ea49, type: 3}
       propertyPath: m_text
       value: "CABE\xC7A"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6827712522185877811, guid: 6af0db0b952e14a4e9b7e57e8820ea49, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 96.7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6af0db0b952e14a4e9b7e57e8820ea49, type: 3}

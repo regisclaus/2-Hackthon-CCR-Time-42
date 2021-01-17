@@ -7,6 +7,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 130838399771032517, guid: 6af0db0b952e14a4e9b7e57e8820ea49, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: da917dd6a843b40e7a255fcc28a5e08f, type: 3}
+    - target: {fileID: 130838399771032517, guid: 6af0db0b952e14a4e9b7e57e8820ea49, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 130838399771032517, guid: 6af0db0b952e14a4e9b7e57e8820ea49, type: 3}
+      propertyPath: m_Color.g
+      value: 0.86607015
+      objectReference: {fileID: 0}
+    - target: {fileID: 130838399771032517, guid: 6af0db0b952e14a4e9b7e57e8820ea49, type: 3}
+      propertyPath: m_Color.r
+      value: 0.6273585
+      objectReference: {fileID: 0}
+    - target: {fileID: 383148948949632219, guid: 6af0db0b952e14a4e9b7e57e8820ea49, type: 3}
+      propertyPath: m_text
+      value: "Gest\xE3o de Atendimentos"
+      objectReference: {fileID: 0}
+    - target: {fileID: 401730387686110104, guid: 6af0db0b952e14a4e9b7e57e8820ea49, type: 3}
+      propertyPath: m_text
+      value: "Gest\xE3o de M\xEDdias Sociais"
+      objectReference: {fileID: 0}
     - target: {fileID: 848757744897365184, guid: 6af0db0b952e14a4e9b7e57e8820ea49, type: 3}
       propertyPath: m_Name
       value: 8_Trilha_Trampo Variant
@@ -95,6 +119,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2608884226193413675, guid: 6af0db0b952e14a4e9b7e57e8820ea49, type: 3}
+      propertyPath: m_text
+      value: "Gest\xE3o de E-commerce"
+      objectReference: {fileID: 0}
     - target: {fileID: 4940588183732447691, guid: 6af0db0b952e14a4e9b7e57e8820ea49, type: 3}
       propertyPath: m_Color.a
       value: 1
@@ -114,6 +142,46 @@ PrefabInstance:
     - target: {fileID: 6015346710168119351, guid: 6af0db0b952e14a4e9b7e57e8820ea49, type: 3}
       propertyPath: m_text
       value: TRAMPOS
+      objectReference: {fileID: 0}
+    - target: {fileID: 6827712522185877811, guid: 6af0db0b952e14a4e9b7e57e8820ea49, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 117.06299
+      objectReference: {fileID: 0}
+    - target: {fileID: 6827712522185877811, guid: 6af0db0b952e14a4e9b7e57e8820ea49, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 76.66722
+      objectReference: {fileID: 0}
+    - target: {fileID: 6827712522185877811, guid: 6af0db0b952e14a4e9b7e57e8820ea49, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 90.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6827712522185877811, guid: 6af0db0b952e14a4e9b7e57e8820ea49, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -8.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 8715863236883904106, guid: 6af0db0b952e14a4e9b7e57e8820ea49, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 196.98892
+      objectReference: {fileID: 0}
+    - target: {fileID: 8715863236883904106, guid: 6af0db0b952e14a4e9b7e57e8820ea49, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 135.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 8845049936403139621, guid: 6af0db0b952e14a4e9b7e57e8820ea49, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 118.08331
+      objectReference: {fileID: 0}
+    - target: {fileID: 8845049936403139621, guid: 6af0db0b952e14a4e9b7e57e8820ea49, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 42.75933
+      objectReference: {fileID: 0}
+    - target: {fileID: 8845049936403139621, guid: 6af0db0b952e14a4e9b7e57e8820ea49, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -94.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 8845049936403139621, guid: 6af0db0b952e14a4e9b7e57e8820ea49, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -2.21
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6af0db0b952e14a4e9b7e57e8820ea49, type: 3}

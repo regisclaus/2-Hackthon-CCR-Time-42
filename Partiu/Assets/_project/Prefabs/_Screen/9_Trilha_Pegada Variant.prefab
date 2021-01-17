@@ -7,6 +7,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 130838399771032517, guid: 6af0db0b952e14a4e9b7e57e8820ea49, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 4659acc5e0dc84924938515f68919315, type: 3}
+    - target: {fileID: 130838399771032517, guid: 6af0db0b952e14a4e9b7e57e8820ea49, type: 3}
+      propertyPath: m_Color.b
+      value: 0.5764507
+      objectReference: {fileID: 0}
+    - target: {fileID: 130838399771032517, guid: 6af0db0b952e14a4e9b7e57e8820ea49, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9622642
+      objectReference: {fileID: 0}
+    - target: {fileID: 130838399771032517, guid: 6af0db0b952e14a4e9b7e57e8820ea49, type: 3}
+      propertyPath: m_Color.r
+      value: 0.655333
+      objectReference: {fileID: 0}
+    - target: {fileID: 383148948949632219, guid: 6af0db0b952e14a4e9b7e57e8820ea49, type: 3}
+      propertyPath: m_text
+      value: "Lideran\xE7a"
+      objectReference: {fileID: 0}
     - target: {fileID: 848757744897365184, guid: 6af0db0b952e14a4e9b7e57e8820ea49, type: 3}
       propertyPath: m_Name
       value: 9_Trilha_Pegada Variant
@@ -95,6 +115,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2608884226193413675, guid: 6af0db0b952e14a4e9b7e57e8820ea49, type: 3}
+      propertyPath: m_text
+      value: Postura Profissional
+      objectReference: {fileID: 0}
     - target: {fileID: 4940588183732447691, guid: 6af0db0b952e14a4e9b7e57e8820ea49, type: 3}
       propertyPath: m_Color.a
       value: 1
@@ -114,6 +138,14 @@ PrefabInstance:
     - target: {fileID: 6015346710168119351, guid: 6af0db0b952e14a4e9b7e57e8820ea49, type: 3}
       propertyPath: m_text
       value: PEGADA
+      objectReference: {fileID: 0}
+    - target: {fileID: 8715863236883904106, guid: 6af0db0b952e14a4e9b7e57e8820ea49, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 185.57474
+      objectReference: {fileID: 0}
+    - target: {fileID: 8715863236883904106, guid: 6af0db0b952e14a4e9b7e57e8820ea49, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 129.36
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6af0db0b952e14a4e9b7e57e8820ea49, type: 3}
