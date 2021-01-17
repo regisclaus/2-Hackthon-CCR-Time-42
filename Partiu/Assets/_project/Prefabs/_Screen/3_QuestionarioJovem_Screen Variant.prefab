@@ -99,6 +99,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3007541967323264973, guid: 03b16360b38144fb786d925744350ecc, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 8264774370069176292}
+    - target: {fileID: 4438602679991762865, guid: 03b16360b38144fb786d925744350ecc, type: 3}
+      propertyPath: m_text
+      value: Fundamental - Incompleto
+      objectReference: {fileID: 0}
+    - target: {fileID: 4438602679991762865, guid: 03b16360b38144fb786d925744350ecc, type: 3}
+      propertyPath: m_fontSize
+      value: 24.15
+      objectReference: {fileID: 0}
     - target: {fileID: 6641860473782036097, guid: 03b16360b38144fb786d925744350ecc, type: 3}
       propertyPath: m_Options.m_Options.Array.size
       value: 10
@@ -151,6 +163,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 8264774370069176292}
+    - target: {fileID: 8775610165157040888, guid: 03b16360b38144fb786d925744350ecc, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1642897187740012099}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 03b16360b38144fb786d925744350ecc, type: 3}
 --- !u!1 &1209845817299896765 stripped
@@ -158,6 +174,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1379744893887571308, guid: 03b16360b38144fb786d925744350ecc, type: 3}
   m_PrefabInstance: {fileID: 283703651983486161}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &7685557365304800454 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7586172026660182039, guid: 03b16360b38144fb786d925744350ecc, type: 3}
+  m_PrefabInstance: {fileID: 283703651983486161}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1209845817299896765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98e00ca5139134b908091a8fabf57a10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1323435344400702707
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -279,6 +306,10 @@ PrefabInstance:
       propertyPath: m_text
       value: 18
       objectReference: {fileID: 0}
+    - target: {fileID: 3661524131082247164, guid: a4239a27a9e47476699f181316fd0752, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 7831222785580823352}
     - target: {fileID: 4240425783195681537, guid: a4239a27a9e47476699f181316fd0752, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
@@ -387,6 +418,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pergunta_Idade
       objectReference: {fileID: 0}
+    - target: {fileID: 7176036664923018520, guid: a4239a27a9e47476699f181316fd0752, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 6297405438150578104}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a4239a27a9e47476699f181316fd0752, type: 3}
 --- !u!1 &7243354905791677597 stripped
@@ -394,6 +429,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6818302755056850630, guid: a4239a27a9e47476699f181316fd0752, type: 3}
   m_PrefabInstance: {fileID: 4186916999780160091}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2226811215119514086 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2665519459694619581, guid: a4239a27a9e47476699f181316fd0752, type: 3}
+  m_PrefabInstance: {fileID: 4186916999780160091}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7243354905791677597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98e00ca5139134b908091a8fabf57a10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &7032289641183722120
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -521,6 +567,10 @@ PrefabInstance:
       propertyPath: exitParent
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8775610165157040888, guid: 03b16360b38144fb786d925744350ecc, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 7685557365304800454}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 03b16360b38144fb786d925744350ecc, type: 3}
 --- !u!1 &8264774370069176292 stripped
@@ -539,6 +589,10 @@ PrefabInstance:
       propertyPath: m_text
       value: Ana
       objectReference: {fileID: 0}
+    - target: {fileID: 3661524131082247164, guid: a4239a27a9e47476699f181316fd0752, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 7243354905791677597}
     - target: {fileID: 4240425783195681537, guid: a4239a27a9e47476699f181316fd0752, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -574,6 +628,10 @@ PrefabInstance:
     - target: {fileID: 4928698181271046202, guid: a4239a27a9e47476699f181316fd0752, type: 3}
       propertyPath: m_text
       value: "Como voc\xEA prefere ser chamado?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5689751107576161441, guid: a4239a27a9e47476699f181316fd0752, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6607817667529010974, guid: a4239a27a9e47476699f181316fd0752, type: 3}
       propertyPath: m_Pivot.x
@@ -674,6 +732,10 @@ PrefabInstance:
     - target: {fileID: 6818302755056850630, guid: a4239a27a9e47476699f181316fd0752, type: 3}
       propertyPath: m_Name
       value: Pergunta_Apelido
+      objectReference: {fileID: 0}
+    - target: {fileID: 7176036664923018520, guid: a4239a27a9e47476699f181316fd0752, type: 3}
+      propertyPath: m_Interactable
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a4239a27a9e47476699f181316fd0752, type: 3}
@@ -787,6 +849,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3007541967323264973, guid: 03b16360b38144fb786d925744350ecc, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1209845817299896765}
     - target: {fileID: 4438602679991762865, guid: 03b16360b38144fb786d925744350ecc, type: 3}
       propertyPath: m_text
       value: Feminino
@@ -827,6 +893,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 1209845817299896765}
+    - target: {fileID: 8775610165157040888, guid: 03b16360b38144fb786d925744350ecc, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 2226811215119514086}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 03b16360b38144fb786d925744350ecc, type: 3}
 --- !u!1 &7831222785580823352 stripped
@@ -834,3 +904,14 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1379744893887571308, guid: 03b16360b38144fb786d925744350ecc, type: 3}
   m_PrefabInstance: {fileID: 9190651715348502100}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1642897187740012099 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7586172026660182039, guid: 03b16360b38144fb786d925744350ecc, type: 3}
+  m_PrefabInstance: {fileID: 9190651715348502100}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7831222785580823352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98e00ca5139134b908091a8fabf57a10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
