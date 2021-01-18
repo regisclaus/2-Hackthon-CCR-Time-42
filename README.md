@@ -10,6 +10,8 @@
 
 **Plataforma de desenvolvimento:** Unity 2020.1.17
 
+**Linguagem:** C#
+
 **Plataforma alvo:** Mobile (Android)
 
 **Scene:** Assets/_project/App.scene
